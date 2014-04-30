@@ -4,11 +4,12 @@
 define( function() {
   'use strict';
 
-  //TODO: Add the name of your group here.
+  //TODO: Add your group's information here and it will appear in the About Dialog
   return {
     name: '',//For example: My Company
     copyright: '',//For example: Copyright © 2014, My Company
     links: [
-      {text: 'Text', url: 'https://www.wikipedia.org/'} //For example, a link to your homepage or support page
+      {text: '', //For example "My Company Support"
+        url: ''} //For example, https://www.mycompany.com/support
     ]};
 } );
