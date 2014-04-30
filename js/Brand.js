@@ -5,5 +5,5 @@ define( function() {
   'use strict';
 
   //TODO: Add the name of your group here.
-  return function() { return {name: ''}; };
+  return { name: ''};
 } );
