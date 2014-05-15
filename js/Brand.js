@@ -7,18 +7,15 @@ define( function( require ) {
   var phetString = 'PhET Interactive Simulations'; // as in Java sims, do not internationalize
   var copyrightString = 'Copyright © 2004-2014 University of Colorado Boulder'; // as in Java sims, do not internationalize
 
-  var softwareAgreementString = require( 'string!JOIST/softwareAgreement' );
-  var softwareLicensingString = require( 'string!JOIST/softwareLicensing' );
+  var softwareAgreementAndLicensingString = require( 'string!JOIST/softwareAgreementAndLicensing' );
 
   // constants
-  var SOFTWARE_AGREEMENT_URL = 'http://phet.colorado.edu/about/software-agreement_v7.htm';
   var SOFTWARE_LICENSING_URL = 'http://phet.colorado.edu/licensing';
 
   return {
     name: phetString,
     copyright: copyrightString,
     links: [
-      {text: softwareAgreementString, url: SOFTWARE_AGREEMENT_URL},
-      {text: softwareLicensingString, url: SOFTWARE_LICENSING_URL}
+      {text: softwareAgreementAndLicensingString, url: SOFTWARE_LICENSING_URL}
     ]};
 } );
