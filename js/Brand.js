@@ -5,7 +5,7 @@ define( function( require ) {
   'use strict';
 
   var phetString = 'PhET Interactive Simulations'; // as in Java sims, do not internationalize
-  var copyrightString = 'Copyright © 2004-2014 University of Colorado Boulder'; // as in Java sims, do not internationalize
+  var copyrightString = 'Copyright © 2004-2015 University of Colorado Boulder'; // as in Java sims, do not internationalize
 
   var termsPrivacyAndLicensingString = require( 'string!JOIST/termsPrivacyAndLicensing' );
 
