@@ -16,6 +16,7 @@ define( function( require ) {
     name: phetString,
     copyright: copyrightString,
     links: [
-      {text: termsPrivacyAndLicensingString, url: SOFTWARE_LICENSING_URL}
-    ]};
+      { text: termsPrivacyAndLicensingString, url: SOFTWARE_LICENSING_URL }
+    ]
+  };
 } );
