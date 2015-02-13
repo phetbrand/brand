@@ -1,9 +1,8 @@
 {
   "name": "brand",
-  "version": "1.0.0-dev.1",
-  "phetLibs": "brand",
-  "preload": "",
+  "version": "0.0.0",
   "license": "MIT",
+  "phetLibs": "brand",
   "repository": {
     "type": "git",
     "url": "https://github.com/phetsims/brand.git"
