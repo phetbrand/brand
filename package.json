@@ -2,7 +2,6 @@
   "name": "brand",
   "version": "0.0.0",
   "license": "MIT",
-  "phetLibs": "brand",
   "repository": {
     "type": "git",
     "url": "https://github.com/phetsims/brand.git"
