@@ -17,6 +17,7 @@ define( function( require ) {
     copyright: copyrightString,
     links: [
       { text: termsPrivacyAndLicensingString, url: SOFTWARE_LICENSING_URL }
-    ]
+    ],
+    adaptedFromPhET: false
   };
 } );
